@@ -44,6 +44,23 @@ All versions are compiled and run with a single script, outputting execution tim
 
 ---
 
+## Project Structure
+.
+├── compile.sh                   # One-click build and test script
+├── v0_naive_ijk.c               # Naive implementation
+├── v1_ikj_ordered.c             # Cache-friendly ordering
+├── v2_loop_unrolling.c          # Loop unrolling
+├── v3_blocking_v2.c             # Blocking optimization
+├── v4_blas.c                    # BLAS library call
+├── v5_cuda_shared_memory.cu     # CUDA shared memory
+├── v7_openmp.c                  # OpenMP parallel
+├── v8_mpi.c                     # MPI distributed
+├── v9_mpi_blas.c                # MPI + BLAS
+├── v10_mpi_openmp_blas.c        # MPI + OpenMP + BLAS
+└── README.md
+
+---
+
 ## Build & Run
 
 Clone the repository and execute the compilation script:
