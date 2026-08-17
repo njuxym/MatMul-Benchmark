@@ -45,6 +45,8 @@ All versions are compiled and run with a single script, outputting execution tim
 ---
 
 ## Project Structure
+
+```bash
 .
 ├── compile.sh                   # One-click build and test script
 ├── v0_naive_ijk.c               # Naive implementation
@@ -58,6 +60,7 @@ All versions are compiled and run with a single script, outputting execution tim
 ├── v9_mpi_blas.c                # MPI + BLAS
 ├── v10_mpi_openmp_blas.c        # MPI + OpenMP + BLAS
 └── README.md
+```
 
 ---
 
